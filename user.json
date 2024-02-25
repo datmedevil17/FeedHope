@@ -1,0 +1,56 @@
+{
+    "rohan": {
+      "name": "rohan",
+      "orders": 89,
+      "address": "Aminabad",
+      "favourites": [
+        {
+          "image": "https://imgs.search.brave.com/w1rlC5UQriz9rt0f0dm0XkUqJb2AVto8olpoWSYVyz4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hcGku/dmlwLmZvb2RuZXR3/b3JrLmNhL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIzLzExL3No/YWhpLXBhbmVlci03/LmpwZz93PTM4NDAm/cXVhbGl0eT03NQ",
+          "name": "Shahi Paneer",
+          "price": "$10"
+        }
+        
+      ]
+    },
+    "saanvi": {
+        "name": "saanvi",
+        "orders": 89,
+        "address": "Gomti Nagar",
+        "favourites": [
+        {
+          "image": "https://imgs.search.brave.com/p0bSV4GQRb8CggxCzgwuLMWoDnuVCS7nu_EmtC4OZjo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9ob2x5/Y293dmVnYW4ubmV0/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDA4/LzEwL2Nob2xlLWJo/YXR1cmEtY2hhbmEt/YmhhdHVyYS05Lmpw/Zw",
+          "name": "Chola Bhatura",
+          "price": "$15"
+        }
+        
+      ]
+    },
+    "raj": {
+        "name": "raj",
+        "orders": 89,
+        "address": "Hazratganj",
+        "favourites": [
+        
+        {
+          "image": "https://imgs.search.brave.com/EM8f-HyuMDMFttiuqpiEf9Ac6O7ppiuqyjywwjJrywM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2F5bWVkaWEt/Y29udGVudC5jb20v/LmltYWdlL2NfbGlt/aXQsY3Nfc3JnYixm/bF9wcm9ncmVzc2l2/ZSxxX2F1dG86ZWNv/LHdfNzAwL01UYzBO/REk0TXpFMU1EazBP/RGcyTURJeS9zb3lh/LWNoYWFwLXJlY2lw/ZS1tYWxhaS1jaGFh/cC1yZWNpcGUtc295/YWJlYW4taW4tYS1j/cmVhbXktc2F1Y2Uu/anBn",
+          "name": "Soya Chaap",
+          "price": "$10"
+        }
+      ]
+    },
+    "vaidehi": {
+        "name": "vaidehi",
+        "orders": 89,
+        "address": "Aminabad",
+        "favourites": [
+        {
+          "image": "https://imgs.search.brave.com/L3MEUqZ2JaOTh_IFtUa6Sn8R0yf3l_MHcYO4BMYN6xA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2FkL2Nm/LzlkL2FkY2Y5ZGEw/MzcyMjlhZDM1Mjhh/NTY2YjIzZWJkZmJl/LmpwZw",
+          "price": "$45",
+          "name": "Cake"
+        }
+      ]
+    }
+    
+    }
+  
+  

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> <%= data.name %></h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione omnis voluptate nemo porro ea earum quibusdam reprehenderit aut neque pariatur ipsam maiores exercitationem, quasi a, ut, consectetur distinctio cum praesentium?</p>
+    <h2>Rating : <%= data.rating  %> &nbsp;&nbsp;&nbsp;&nbsp;
+    Location : <%= data.location %></h2>
+    <hr>
+    <h4>Items Available</h4>
+    <% for(let item of data.items){ %>
+        <img src="<%=item.image%>" alt="" style="height: 200px; width: 250px;">
+        <h2>Name : <%= item.name  %> &nbsp;&nbsp;&nbsp;&nbsp;
+            Price : <%= item.price %></h2>
+
+
+    <%}%>
+    
+</body>
+</html>

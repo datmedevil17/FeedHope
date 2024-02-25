@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> User -> <%= user.name %></h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione omnis voluptate nemo porro ea earum quibusdam reprehenderit aut neque pariatur ipsam maiores exercitationem, quasi a, ut, consectetur distinctio cum praesentium?</p>
+    <h2>Number of Orders : <%= user.orders  %> &nbsp;&nbsp;&nbsp;&nbsp;
+    Location : <%= user.address %></h2>
+    <hr>
+    <h4>Favourites</h4>
+    <% for(let favourite of user.favourites){ %>
+        <img src="<%=favourite.image%>" alt="" style="height: 200px; width: 250px;">
+        <h2>Name : <%= favourite.name  %> &nbsp;&nbsp;&nbsp;&nbsp;
+            Price : <%= favourite.price %></h2>
+
+
+    <%}%>
+</body>
+</html>
